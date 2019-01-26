@@ -2,6 +2,7 @@ build/
 DerivedData/
 *.pbxuser
 !default.pbxuser
+Examples/CloudAnchorExample/Pods
 *.mode1v3
 !default.mode1v3
 *.mode2v3
