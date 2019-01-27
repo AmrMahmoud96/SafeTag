@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, HelloARState) {
   self.firebaseReference = [[FIRDatabase database] reference];
   self.sceneView.delegate = self;
   self.sceneView.session.delegate = self;
-  self.gSession = [GARSession sessionWithAPIKey:@"AIzaSyAC4cKtDG7Su8HZ7wVy8GoQglXwJxaSbcY"
+  self.gSession = [GARSession sessionWithAPIKey:@"API-KEY-HERE"
                                bundleIdentifier:nil
                                           error:nil];
   self.gSession.delegate = self;
